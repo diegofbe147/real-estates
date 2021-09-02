@@ -20,6 +20,12 @@ module.exports = {
       fontFamily: {
         silka: ['Silka', 'sans-serif', 'ui-sans-serif', 'system-ui' ],
       },
+      height: {
+        15: '3.75rem'
+      },
+      padding: {
+        18: '4.5rem'
+      }
     },
   },
   variants: {

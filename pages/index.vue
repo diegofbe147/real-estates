@@ -1,7 +1,11 @@
 <template>
-  <HelloWorld />
+  <div class="tw-flex">
+    <FavoritesList />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'main'
+}
 </script>
