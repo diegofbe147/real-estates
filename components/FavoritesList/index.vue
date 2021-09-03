@@ -1,23 +1,29 @@
 <template>
-  <div class="tw-flex tw-flex-col tw-flex-1 tw-pt-15 tw-pb-20 tw-items-center">
-    <div class="tw-flex">
-      <h1 class="tw-text-lh-jungle-green tw-font-semibold tw-text-3xl">Listas de favoritos</h1>
+  <div class="tw-flex tw-flex-1 tw-flex-col tw-items-center tw-pt-15 tw-pb-20">
+    <div class="tw-flex tw-mb-14">
+      <h1 class="tw-font-semibold tw-text-lh-jungle-green tw-text-3xl">
+        Listas de favoritos
+      </h1>
+    </div>
+    <div class="tw-grid tw-grid-cols-1 sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-x-8 tw-gap-y-15">
+      <FavoritesListItem v-for="favorite in favoritesList" :key="favorite.id" :favorite="favorite"/>
+      <FavoritesListCardAddList />
     </div>
   </div>
 </template>
 
 <script>
 // Services
-import favoritesService from '~/services/favorites';
+import favoritesService from '~/services/favorites'
 
 export default {
   data() {
     return {
-      favoritesList: []
+      favoritesList: [],
     }
   },
   async fetch() {
-    this.favoritesList = await favoritesService.getFavoritesList();
-  }
+    this.favoritesList = await favoritesService.getFavoritesList()
+  },
 }
 </script>

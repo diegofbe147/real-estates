@@ -3,21 +3,21 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(~assets/font/silka/silka-regular-webfont.woff2) format('woff2');
+    src: url(~assets/fonts/silka/silka-regular-webfont.woff2) format('woff2');
   }
-  
+
   @font-face {
     font-family: 'silka';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(~assets/font/silka/silka-medium-webfont.woff2) format('woff2');
+    src: url(~assets/fonts/silka/silka-medium-webfont.woff2) format('woff2');
   }
-  
+
   @font-face {
     font-family: 'silka';
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url(~assets/font/silka/silka-semibold-webfont.woff2) format('woff2');
+    src: url(~assets/fonts/silka/silka-semibold-webfont.woff2) format('woff2');
   }

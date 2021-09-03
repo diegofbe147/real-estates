@@ -1,4 +1,4 @@
-@import './font.css';
+@import './fonts.css';
 
 html {
   @apply tw-font-silka;
