@@ -1,7 +1,5 @@
 <template>
-  <div class="tw-flex">
-    <FavoritesList />
-  </div>
+  <FavoritesList />
 </template>
 
 <script>
