@@ -5,3 +5,19 @@
     </div>
   </div>
 </template>
+
+<script>
+// Services
+import favoritesService from '~/services/favorites';
+
+export default {
+  data() {
+    return {
+      favoritesList: []
+    }
+  },
+  async fetch() {
+    this.favoritesList = await favoritesService.getFavoritesList();
+  }
+}
+</script>
