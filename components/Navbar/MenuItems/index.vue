@@ -5,7 +5,7 @@
         <a :href="menuItem.url">{{ menuItem.name }}</a>
       </div>
     </div>
-    <div class="tw-flex tw-items-center">
+    <div class="tw-flex tw-items-center tw-cursor-pointer">
       <div class="tw-mr-2.5 tw-font-medium">
         <a href="">Mi Perfil</a>
       </div>
