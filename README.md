@@ -1,4 +1,4 @@
-# Real States
+# Real Estates
 
 ## v0.1.0
 
