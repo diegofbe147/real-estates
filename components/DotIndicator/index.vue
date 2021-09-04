@@ -1,23 +1,17 @@
 <template>
   <div>
+    <span class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-lh-caribbean-green" :class="customStyles"/>
     <span
-      class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-lh-caribbean-green"
-      :class="customStyles"
-    ></span>
-    <span
-      v-if="pulse"
-      class="
-        tw-animate-ping tw-rounded-full tw-h-3 tw-w-3 tw-bg-lh-caribbean-green
-      "
-      :class="customStyles"
-    ></span>
+      v-if="pulseAnimation"
+      class="tw-animate-ping tw-rounded-full tw-h-3 tw-w-3 tw-bg-lh-caribbean-green"
+      :class="customStyles"/>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    pulse: {
+    pulseAnimation: {
       type: Boolean,
       required: false,
       default() {

@@ -2,17 +2,17 @@ const menuItems = [
   {
     key: 1,
     name: 'Cundinamarca',
-    url: '/'
+    urlPath: '/'
   },
   {
     key: 2,
     name: 'Antioquia',
-    url: '/'
+    urlPath: '/'
   },
   {
     key: 3,
     name: 'Recursos',
-    url: '/'
+    urlPath: '/'
   }
 ]
 

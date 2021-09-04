@@ -42,6 +42,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://i18n.nuxtjs.org
+    [
+      '@nuxtjs/i18n',
+      {
+        locales: [
+          { code: 'es', iso: 'es-CO', file: 'es-CO.js', dir: 'ltr' },
+        ],
+        defaultLocale: 'es',
+        langDir: 'lang/',
+      }
+    ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
