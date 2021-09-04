@@ -6,7 +6,7 @@
     <img
       v-for="(image, index) in imagesToDisplay" :key="index"
       alt="imagen de favorito"
-      class="tw-absolute tw-h-full tw-rounded-card tw-object-cover tw-border-r tw-border-white"
+      class="tw-absolute tw-h-full tw-rounded-card tw-object-cover"
       :src="image"
       :class="stylesByNumOfElements[numberOfImagesToDisplay][index]"
     />
@@ -35,10 +35,10 @@ export default {
     return {
       stylesByNumOfElements: {
         1: ['tw-w-full tw-z-30'],
-        2: ['tw-w-37.5 tw-z-30', 'tw-w-54.5 tw-z-20 tw-right-0'],
+        2: ['tw-w-37.5 tw-z-30 tw-border-r tw-border-white', 'tw-w-54.5 tw-z-20 tw-right-0'],
         3: [
-        'tw-w-37.5 tw-z-30',
-        'tw-w-28.5 tw-z-20 tw-left-28.5',
+        'tw-w-37.5 tw-z-30 tw-border-r tw-border-white',
+        'tw-w-28.5 tw-z-20 tw-left-28.5 tw-border-r tw-border-white',
         'tw-w-30.5 tw-z-10 tw-right-0 tw-opacity-30'
         ]
       }
