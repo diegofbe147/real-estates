@@ -1,6 +1,6 @@
 <template>
   <div
-    class="tw-sticky tw-top-0 tw-z-50 tw-h-15 md:tw-px-18 tw-px-5 tw-bg-white tw-border-b tw-border-lh-bg-gray">
+    class="tw-w-full tw-fixed tw-z-50 tw-h-15 md:tw-px-18 tw-px-5 tw-bg-white tw-border-b tw-border-lh-bg-gray">
     <div class="md:tw-flex tw-hidden tw-w-full tw-h-full tw-items-center tw-justify-between">
       <img src="~/assets/images/lh-desktop-logo.svg" alt="La Haus logo" />
       <div class="tw-flex">
