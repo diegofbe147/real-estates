@@ -44,9 +44,6 @@ These instructions will allow you to get a copy of the project running on your l
 	```
 	npm run start
 	```
-
-	**NOTE:** After of run the previous command, open your browser with the following URL ` http://localhost:3000` to see the demo
-
 ## Built with 🛠️
 
 [//]: # (Mention the development libraries and frameworks you used to create your project)
@@ -55,6 +52,7 @@ These instructions will allow you to get a copy of the project running on your l
 * [CSS library: Tailwind](https://tailwindcss.com/)
 * [Formatter: Prettier](https://prettier.io/docs/en/index.html)
 * [Linter: ESLint](https://eslint.org/)
+* [Internationalization: Nuxt/i18n](https://i18n.nuxtjs.org/)
 
 ## License 📄
 [License](./LICENSE).

@@ -1,7 +1,9 @@
 <template>
-  <HelloWorld />
+  <FavoritesList />
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'main'
+}
 </script>
