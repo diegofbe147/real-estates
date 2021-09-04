@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-flex tw-flex-1 tw-flex-col tw-items-center tw-pt-15 tw-pb-20">
+  <div class="tw-flex tw-flex-1 tw-flex-col tw-items-center tw-pt-30 lg:tw-pb-0 tw-pb-20">
     <h1 class="tw-font-semibold tw-text-lh-jungle-green tw-text-3xl tw-mb-14">
       {{ $t('favorites.title') }}
     </h1>
