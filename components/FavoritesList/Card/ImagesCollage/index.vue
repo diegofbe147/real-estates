@@ -5,8 +5,7 @@
     </div>
     <img
       v-for="(image, index) in imagesToDisplay" :key="index"
-      alt="Estate"
-      title="Estate"
+      alt="favorite"
       class="tw-absolute tw-h-full tw-rounded-lg tw-object-cover tw-border-r tw-border-white"
       :src="image"
       :class="stylesByNumOfElements[numberOfImagesToDisplay][index]"
